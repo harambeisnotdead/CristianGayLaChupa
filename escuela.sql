@@ -153,6 +153,8 @@ ALTER TABLE ALUMNO ADD CONSTRAINT fk_ALUMNO_idGrupo FOREIGN KEY (idGrupo) REFERE
 
 INSERT INTO ALUMNO VALUES ("14568792G","14568792G","Pau","Sanxis","Terrassa, c/Barcelona 46","08/02/1997","jpkistanes@gmail.com","626548789","39","2A");
 INSERT INTO ALUMNO VALUES ("45214986T","14568792G","Marta","Cots","Igualada, C/Guadalquivir 7","05/09/1996","queinsabe@gmail.com","766753987","39","2A");
+INSERT INTO ALUMNO VALUES ("49589647F","14568792G","Albert","Correa","San Cugat, C/Monolito 11","17/03/1995","albertoculoabi@gmail.com","982564572","39","2A");
+INSERT INTO ALUMNO VALUES ("48541234R","14568792G","Forgencio","De Pepinos","Monserrat, C/Miquel Vives 32","11/07/1996","forgenpepinoscome11@gmail.com","936448144","39","2A");
 
 #--------------------------------------------------TABLA ASIGNATURA-----------------------------------------------------
 INSERT INTO ASIGNATURA VALUES ("12","Historia");
