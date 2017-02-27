@@ -232,6 +232,9 @@ INSERT INTO CONFERENCIA VALUES("X1BTX4","Miquel","els misteris de la creació de
 #-------------------------------------------------TABLA PERSONAL_LIMPIEZA-----------------------------------------------
 INSERT INTO PERSONAL_LIMPIEZA VALUES("39388917S","Assumpte","Sunye","77260302");
 INSERT INTO PERSONAL_LIMPIEZA VALUES("85496532Y","Maria","Barriga","25647893");
+INSERT INTO PERSONAL_LIMPIEZA VALUES("56894356T","Fermín","Gutierrez","654893125");
+INSERT INTO PERSONAL_LIMPIEZA VALUES("78934568O","Joan","Escalé","45793856");
+
 
 #--------------------------------------------------TABLA LIMPIA---------------------------------------------------------
 ALTER TABLE LIMPIA ADD CONSTRAINT fk_LIMPIA_idAula FOREIGN KEY (idAula) REFERENCES AULA(idAula),
@@ -240,6 +243,12 @@ ALTER TABLE LIMPIA ADD CONSTRAINT fk_LIMPIA_idAula FOREIGN KEY (idAula) REFERENC
 
 INSERT INTO LIMPIA VALUES("32","2","39388917S");
 INSERT INTO LIMPIA VALUES("21","1","85496532Y");
+INSERT INTO LIMPIA VALUES("25","1","39388917S");
+INSERT INTO LIMPIA VALUES("12","1","56894356T");
+INSERT INTO LIMPIA VALUES("23","2","78934568O");
+INSERT INTO LIMPIA VALUES("15","1","56894356T");
+INSERT INTO LIMPIA VALUES("25","2","78934568O");
+
 
 #--------------------------------------------------TABLA TIENE----------------------------------------------------------
 ALTER TABLE TIENE ADD CONSTRAINT fk_TIENE_idAsignatura FOREIGN KEY (idAsignatura) REFERENCES ASIGNATURA(idAsignatura),
