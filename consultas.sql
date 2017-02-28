@@ -13,6 +13,8 @@ FROM PERTENECE a JOIN PROFESOR b ON (a.DNIProfesor = b.DNIProfesor)
 JOIN DEPARTAMENTO c ON (a.idDepartamento = c.idDepartamento);
 
 #MOSTRAR TODAS LAS AULAS DE LAS PLANTAS Y LA PERSONA QUE LA LIMPIA
+SELECT idAula, idPlanta, nombre FROM LIMPIA a JOIN `PERSONAL_LIMPIEZA` b 
+ON (a.DNIPersonalLimpieza = b.DNIPersonalLimpieza) ORDER BY idPlanta;
 
 
 #SUBCONSULTAS
